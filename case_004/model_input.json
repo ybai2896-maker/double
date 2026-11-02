@@ -1,0 +1,98 @@
+{
+  "case_id": "case_004",
+  "dataset_id": "batch02_case_004",
+  "status": "自动提取完成，待实验逐像素复核",
+  "overview_file": "1-08.tif",
+  "zoom_file": "1-09.tif",
+  "measurement_file": "1-10.tif",
+  "overview_pixel_nm": 27.91,
+  "zoom_pixel_nm": 3.489,
+  "overview_width_px": 2048,
+  "overview_height_px": 1536,
+  "zoom_width_px": 2048,
+  "zoom_height_px": 1536,
+  "zoom_roi_xyxy_overview_px": [
+    962.0,
+    641.0,
+    1218.0,
+    818.0
+  ],
+  "zoom_roi_verified": false,
+  "fs_power_mw": 0.205,
+  "cw_power_mw": 0.0,
+  "speed_um_s": 100.0,
+  "spacing_um": 5.0,
+  "line_length_um": 50.0,
+  "n_lines": 4,
+  "zoom_line_id": 3,
+  "line_centers_y_px": [
+    362,
+    542,
+    722,
+    902
+  ],
+  "mask_quality": "image_and_local_reference_guided_full_body_candidate_not_independent_ground_truth",
+  "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left valid-image origin; half-pixel closed contours preserve full raster-cell widths",
+  "full_scan_time_sequence_verified": false,
+  "scan_pattern_recorded": "待确认",
+  "parameters_verified": false,
+  "pairing_verified": false,
+  "overview_pde_registration_verified": false,
+  "parameters_original": {
+    "图像编号": "IMG008",
+    "原文件名": "1-08.tif",
+    "图片跳转": "查看图片",
+    "671 nm功率\n(mW)": 0,
+    "517nm功率（mw）": 0.205,
+    "扫描速度\n(µm/s)": 100,
+    "线间距\n(µm)": 5,
+    "设计线长\n(µm)": 50,
+    "cw_power_mw": 0.0,
+    "fs_power_mw": 0.205,
+    "speed_um_s": 100.0,
+    "spacing_um": 5.0,
+    "line_length_um": 50.0,
+    "zoom_line_id": 3,
+    "scan_pattern": "待确认"
+  },
+  "needs_review": [
+    "parameters_unconfirmed",
+    "pairing_unconfirmed",
+    "scan_pattern_unconfirmed",
+    "zoom_roi_unconfirmed",
+    "mask_boundaries_not_independent_labels",
+    "scan_timing_unprovided",
+    "low_contrast_or_fragmented_overview"
+  ],
+  "ready_for_registration": false,
+  "ready_for_training": false,
+  "mask_version": "batch02_full_visible_body",
+  "parameters_source_checked": true,
+  "zoom_correspondence_confirmed_by_user": true,
+  "zoom_location_source": "用户确认本批仍对应整体图第三条线中间",
+  "overview_valid_image_height_px": 1419,
+  "zoom_valid_image_height_px": 1419,
+  "grid_metadata": {
+    "shape_yx": [
+      80,
+      100
+    ],
+    "step_nm": 20,
+    "overview_anchor_xy_px": [
+      1089.5,
+      722.5
+    ],
+    "zoom_anchor_xy_px": [
+      1023.5,
+      654.0
+    ],
+    "meaning": "local binary mask sampling only; not optical PSF or PDE result"
+  },
+  "missing_expected_files": [],
+  "low_contrast_or_fragmented_overview_lines": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

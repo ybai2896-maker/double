@@ -1,0 +1,233 @@
+{
+  "overview": "1-24.tif",
+  "zoom": "1-25.tif",
+  "measurement": "1-26.tif",
+  "params": {
+    "图像编号": "IMG024",
+    "原文件名": "1-24.tif",
+    "图片跳转": "查看图片",
+    "671 nm功率\n(mW)": 115.4,
+    "517nm功率（mw）": 0.443,
+    "扫描速度\n(µm/s)": 80,
+    "线间距\n(µm)": 5,
+    "设计线长\n(µm)": 50,
+    "cw_power_mw": 115.4,
+    "fs_power_mw": 0.443,
+    "speed_um_s": 80.0,
+    "spacing_um": 5.0,
+    "line_length_um": 50.0,
+    "zoom_line_id": 3,
+    "scan_pattern": "待确认"
+  },
+  "pairing": "本批参数表原文件名、倍率和图像内容对应；放大位置由用户确认",
+  "spacing_um": 5.0,
+  "design_count": 4,
+  "centers": [
+    448,
+    628,
+    809,
+    989
+  ],
+  "line_ranges": {
+    "0": [
+      8.0078125,
+      96.142578125
+    ],
+    "1": [
+      7.568359375,
+      95.458984375
+    ],
+    "2": [
+      7.91015625,
+      96.240234375
+    ],
+    "3": [
+      7.568359375,
+      97.16796875
+    ]
+  },
+  "zoom_roi_xyxy": [
+    938,
+    725,
+    1194,
+    902
+  ],
+  "zoom_roi_verified": false,
+  "segmentation_mode": "完整可见线体：放大图局部卡尺/图像剖面边界跟踪；整体图局部对比与连续位置约束，弱响应列保留缺失",
+  "overview_nm_per_px": 27.91,
+  "zoom_nm_per_px": 3.489,
+  "status": "自动提取完成，待实验逐像素复核",
+  "parameters_verified": false,
+  "pairing_verified": false,
+  "overview_line_stats": [
+    {
+      "线条": 1,
+      "有效列数": 1805,
+      "长度(µm)": 50.37755,
+      "中位线宽(nm)": 195.37,
+      "平均线宽(nm)": 205.761,
+      "左端x_px": 164,
+      "右端x_px_含": 1968,
+      "水平跨度(µm)": 50.37755,
+      "间断或低置信度列数": 0
+    },
+    {
+      "线条": 2,
+      "有效列数": 1800,
+      "长度(µm)": 50.238,
+      "中位线宽(nm)": 195.37,
+      "平均线宽(nm)": 204.456,
+      "左端x_px": 155,
+      "右端x_px_含": 1954,
+      "水平跨度(µm)": 50.238,
+      "间断或低置信度列数": 0
+    },
+    {
+      "线条": 3,
+      "有效列数": 1809,
+      "长度(µm)": 50.48919,
+      "中位线宽(nm)": 195.37,
+      "平均线宽(nm)": 205.213,
+      "左端x_px": 162,
+      "右端x_px_含": 1970,
+      "水平跨度(µm)": 50.48919,
+      "间断或低置信度列数": 0
+    },
+    {
+      "线条": 4,
+      "有效列数": 1811,
+      "长度(µm)": 50.54501,
+      "中位线宽(nm)": 195.37,
+      "平均线宽(nm)": 200.209,
+      "左端x_px": 155,
+      "右端x_px_含": 1989,
+      "水平跨度(µm)": 51.21485,
+      "间断或低置信度列数": 24
+    }
+  ],
+  "zoom_line_stats": [
+    {
+      "线条": 1,
+      "有效列数": 2048,
+      "长度(µm)": 7.145472,
+      "中位线宽(nm)": 139.56,
+      "平均线宽(nm)": 138.216,
+      "左端x_px": 0,
+      "右端x_px_含": 2047,
+      "水平跨度(µm)": 7.145472,
+      "间断或低置信度列数": 0
+    }
+  ],
+  "dataset_id": "batch02_case_010",
+  "mask_version": "batch02_full_visible_body",
+  "parameters_by_image": {
+    "1-24.tif": {
+      "original": {
+        "图像编号": "IMG024",
+        "原文件名": "1-24.tif",
+        "图片跳转": "查看图片",
+        "671 nm功率\n(mW)": 115.4,
+        "517nm功率（mw）": 0.443,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50
+      },
+      "effective": {
+        "图像编号": "IMG024",
+        "原文件名": "1-24.tif",
+        "图片跳转": "查看图片",
+        "671 nm功率\n(mW)": 115.4,
+        "517nm功率（mw）": 0.443,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50
+      }
+    },
+    "1-25.tif": {
+      "original": {
+        "图像编号": "IMG025",
+        "原文件名": "1-25.tif",
+        "图片跳转": "查看图片",
+        "671 nm功率\n(mW)": 115.4,
+        "517nm功率（mw）": 0.443,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50
+      },
+      "effective": {
+        "图像编号": "IMG025",
+        "原文件名": "1-25.tif",
+        "图片跳转": "查看图片",
+        "671 nm功率\n(mW)": 115.4,
+        "517nm功率（mw）": 0.443,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50
+      }
+    },
+    "1-26.tif": {
+      "original": {
+        "图像编号": "IMG026",
+        "原文件名": "1-26.tif",
+        "图片跳转": "查看图片",
+        "671 nm功率\n(mW)": 115.4,
+        "517nm功率（mw）": 0.205,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50
+      },
+      "effective": {
+        "图像编号": "IMG026",
+        "原文件名": "1-26.tif",
+        "图片跳转": "查看图片",
+        "671 nm功率\n(mW)": 115.4,
+        "517nm功率（mw）": 0.443,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50
+      }
+    }
+  },
+  "missing_expected_files": [],
+  "zoom_correspondence_confirmed_by_user": true,
+  "zoom_location_source": "用户确认本批仍对应整体图第三条线中间",
+  "zoom_roi_method": "第三条线可见区域中部，按双图独立TIFF刻度和线体中心估计；非独立特征精确配准",
+  "mask_shape_yx": [
+    1536,
+    2048
+  ],
+  "overview_valid_image_height_px": 1419,
+  "zoom_valid_image_height_px": 1419,
+  "low_contrast_or_fragmented_overview_lines": [],
+  "width_length_definition": "宽度为垂直前景像素数；长度为有效列数乘像素尺寸，水平跨度另列。放大图长度是视野截断范围，不等于整条打印长度。",
+  "dxf_coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left valid-image origin; half-pixel closed contours preserve full raster-cell widths",
+  "grid_metadata": {
+    "shape_yx": [
+      80,
+      100
+    ],
+    "step_nm": 20,
+    "overview_anchor_xy_px": [
+      1066.0,
+      809.0
+    ],
+    "zoom_anchor_xy_px": [
+      1023.5,
+      673.0
+    ],
+    "meaning": "local binary mask sampling only; not optical PSF or PDE result"
+  },
+  "review_limitations": [
+    "caliper positions serve as local seeds, not independent validation",
+    "annotation-occluded boundaries use neighboring image evidence",
+    "low-contrast overview tails and particle-contaminated portions need manual review",
+    "real scan timing and stage-to-writing registration not supplied"
+  ],
+  "parameter_correction": {
+    "file": "1-26.tif",
+    "field": "fs_power_mw",
+    "original": 0.205,
+    "effective": 0.443,
+    "authority": "explicit user confirmation"
+  }
+}

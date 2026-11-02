@@ -1,0 +1,543 @@
+{
+  "3": {
+    "seed_top": 669.5,
+    "seed_bottom": 693.5,
+    "xref": 788.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 4
+  },
+  "4": {
+    "seed_top": 669.5,
+    "seed_bottom": 693.5,
+    "xref": 788.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 4
+  },
+  "2": {
+    "centers": [
+      484,
+      665,
+      845,
+      1025
+    ],
+    "field_x": [
+      94,
+      1945
+    ],
+    "noise_estimates": [
+      1.16700466744903,
+      1.2221593970526439,
+      1.1825750796095826,
+      1.1652856082093035
+    ]
+  },
+  "6": {
+    "seed_top": 697.5,
+    "seed_bottom": 715.5,
+    "xref": 664.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 7
+  },
+  "7": {
+    "seed_top": 697.5,
+    "seed_bottom": 715.5,
+    "xref": 664.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 7
+  },
+  "5": {
+    "centers": [
+      422,
+      602,
+      783,
+      963
+    ],
+    "field_x": [
+      112,
+      1965
+    ],
+    "noise_estimates": [
+      0.8307147029370467,
+      0.7872542651125565,
+      0.8673631073563821,
+      0.8585733118026598
+    ]
+  },
+  "9": {
+    "seed_top": 637.5,
+    "seed_bottom": 661.5,
+    "xref": 892.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 10
+  },
+  "10": {
+    "seed_top": 637.5,
+    "seed_bottom": 661.5,
+    "xref": 892.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 10
+  },
+  "8": {
+    "centers": [
+      360,
+      540,
+      721,
+      901
+    ],
+    "field_x": [
+      149,
+      2000
+    ],
+    "noise_estimates": [
+      0.9616928960486475,
+      0.9451240386495954,
+      0.924295460576286,
+      0.9106404074697674
+    ]
+  },
+  "12": {
+    "seed_top": 631.5,
+    "seed_bottom": 685.5,
+    "xref": 946.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 13
+  },
+  "13": {
+    "seed_top": 631.5,
+    "seed_bottom": 685.5,
+    "xref": 946.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 13
+  },
+  "11": {
+    "centers": [
+      400,
+      580,
+      761,
+      941
+    ],
+    "field_x": [
+      88,
+      1946
+    ],
+    "noise_estimates": [
+      4.2694560314138235,
+      3.647536404629154,
+      4.374147209447987,
+      4.1422838558559265
+    ]
+  },
+  "15": {
+    "seed_top": 711.5,
+    "seed_bottom": 759.5,
+    "xref": 1024,
+    "source": "image contrast boundary estimate; no caliper supplied",
+    "caliper_file": null
+  },
+  "14": {
+    "centers": [
+      424,
+      604,
+      785,
+      965
+    ],
+    "field_x": [
+      91,
+      1951
+    ],
+    "noise_estimates": [
+      2.1042356964224713,
+      2.244591965281661,
+      2.1142328241212436,
+      2.1452005851078555
+    ]
+  },
+  "17": {
+    "seed_top": 688.5,
+    "seed_bottom": 736.5,
+    "xref": 1024,
+    "source": "image contrast boundary estimate; no caliper supplied",
+    "caliper_file": null
+  },
+  "16": {
+    "centers": [
+      428,
+      608,
+      789,
+      969
+    ],
+    "field_x": [
+      111,
+      1968
+    ],
+    "noise_estimates": [
+      1.5180487611449123,
+      1.4117825150246452,
+      1.5703908281960113,
+      1.5550174582227518
+    ]
+  },
+  "19": {
+    "seed_top": 741.5,
+    "seed_bottom": 759.5,
+    "xref": 932.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 20
+  },
+  "20": {
+    "seed_top": 741.5,
+    "seed_bottom": 759.5,
+    "xref": 932.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 20
+  },
+  "18": {
+    "centers": [
+      392,
+      572,
+      752,
+      932
+    ],
+    "field_x": [
+      198,
+      2013
+    ],
+    "noise_estimates": [
+      0.779704619200276,
+      0.7560282343479011,
+      0.7759819202682792,
+      0.7992444182730605
+    ]
+  },
+  "22": {
+    "seed_top": 669.5,
+    "seed_bottom": 723.5,
+    "xref": 736.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 23
+  },
+  "23": {
+    "seed_top": 669.5,
+    "seed_bottom": 723.5,
+    "xref": 736.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 23
+  },
+  "21": {
+    "centers": [
+      410,
+      590,
+      770,
+      952
+    ],
+    "field_x": [
+      124,
+      1983
+    ],
+    "noise_estimates": [
+      1.903394918251006,
+      1.6791200256954346,
+      1.5682054535772605,
+      1.7168243929202034
+    ]
+  },
+  "25": {
+    "seed_top": 651.5,
+    "seed_bottom": 691.5,
+    "xref": 802.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 26
+  },
+  "26": {
+    "seed_top": 651.5,
+    "seed_bottom": 691.5,
+    "xref": 802.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 26
+  },
+  "24": {
+    "centers": [
+      449,
+      629,
+      810,
+      990
+    ],
+    "field_x": [
+      134,
+      1990
+    ],
+    "noise_estimates": [
+      1.1407807956136737,
+      1.0267075207416398,
+      1.068085026748375,
+      1.0371808050677929
+    ]
+  },
+  "28": {
+    "seed_top": 669.5,
+    "seed_bottom": 709.5,
+    "xref": 930.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 29
+  },
+  "29": {
+    "seed_top": 669.5,
+    "seed_bottom": 709.5,
+    "xref": 930.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 29
+  },
+  "27": {
+    "centers": [
+      471,
+      651,
+      832,
+      1012
+    ],
+    "field_x": [
+      127,
+      1979
+    ],
+    "noise_estimates": [
+      0.9076004325034767,
+      0.851091456054838,
+      0.8763452326773074,
+      0.854421953558631
+    ]
+  },
+  "31": {
+    "seed_top": 725.5,
+    "seed_bottom": 783.5,
+    "xref": 454.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 32
+  },
+  "32": {
+    "seed_top": 725.5,
+    "seed_bottom": 783.5,
+    "xref": 454.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 32
+  },
+  "30": {
+    "centers": [
+      417,
+      598,
+      779,
+      959
+    ],
+    "field_x": [
+      108,
+      1964
+    ],
+    "noise_estimates": [
+      1.2185499633099734,
+      1.211223276054348,
+      1.2492319777067185,
+      1.1026839945292046
+    ]
+  },
+  "34": {
+    "seed_top": 603.5,
+    "seed_bottom": 651.5,
+    "xref": 1166.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 35
+  },
+  "35": {
+    "seed_top": 603.5,
+    "seed_bottom": 651.5,
+    "xref": 1166.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 35
+  },
+  "33": {
+    "centers": [
+      390,
+      571,
+      751,
+      931
+    ],
+    "field_x": [
+      82,
+      1936
+    ],
+    "noise_estimates": [
+      0.6766352225518786,
+      0.7510762504652158,
+      0.709748444948581,
+      0.7023810332784645
+    ]
+  },
+  "36": {
+    "centers": [
+      428,
+      609,
+      789,
+      970
+    ],
+    "field_x": [
+      71,
+      1922
+    ],
+    "noise_estimates": [
+      0.6750699639573211,
+      0.7031839987454215,
+      0.7319969436499598,
+      0.7515162804870622
+    ]
+  },
+  "41": {
+    "seed_top": 737.5,
+    "seed_bottom": 763.5,
+    "xref": 976.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 42
+  },
+  "42": {
+    "seed_top": 737.5,
+    "seed_bottom": 763.5,
+    "xref": 976.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 42
+  },
+  "40": {
+    "centers": [
+      434,
+      614,
+      794,
+      974
+    ],
+    "field_x": [
+      142,
+      1993
+    ],
+    "noise_estimates": [
+      0.693629082427447,
+      0.6888052636358674,
+      0.6930212196918263,
+      0.6825469639626629
+    ]
+  },
+  "44": {
+    "seed_top": 729.5,
+    "seed_bottom": 753.5,
+    "xref": 1024,
+    "source": "image contrast boundary estimate; no caliper supplied",
+    "caliper_file": null
+  },
+  "43": {
+    "centers": [
+      396,
+      576,
+      756,
+      936
+    ],
+    "field_x": [
+      113,
+      1964
+    ],
+    "noise_estimates": [
+      0.6512647831843502,
+      0.6796712875498919,
+      0.6699877974771875,
+      0.6634025576101164
+    ]
+  },
+  "46": {
+    "seed_top": 597.5,
+    "seed_bottom": 701.5,
+    "xref": 1030.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 47
+  },
+  "47": {
+    "seed_top": 597.5,
+    "seed_bottom": 701.5,
+    "xref": 1030.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 47
+  },
+  "45": {
+    "centers": [
+      455,
+      636,
+      816,
+      997
+    ],
+    "field_x": [
+      128,
+      1983
+    ],
+    "noise_estimates": [
+      2.741021653337548,
+      3.2378709031177895,
+      2.620385108197783,
+      2.9544932755557416
+    ]
+  },
+  "49": {
+    "seed_top": 647.5,
+    "seed_bottom": 757.5,
+    "xref": 778.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 50
+  },
+  "50": {
+    "seed_top": 647.5,
+    "seed_bottom": 757.5,
+    "xref": 778.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 50
+  },
+  "48": {
+    "centers": [
+      421,
+      601,
+      784,
+      965
+    ],
+    "field_x": [
+      103,
+      1954
+    ],
+    "noise_estimates": [
+      0.856435627237504,
+      0.7962880243437602,
+      1.0727875791678108,
+      0.9905696571893018
+    ]
+  },
+  "52": {
+    "seed_top": 659.5,
+    "seed_bottom": 741.5,
+    "xref": 968.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 53
+  },
+  "53": {
+    "seed_top": 659.5,
+    "seed_bottom": 741.5,
+    "xref": 968.5,
+    "source": "SEM caliper location seed on corresponding annotation image",
+    "caliper_file": 53
+  },
+  "51": {
+    "centers": [
+      387,
+      567,
+      748,
+      930
+    ],
+    "field_x": [
+      93,
+      1944
+    ],
+    "noise_estimates": [
+      1.2538969757162581,
+      1.3031930607357054,
+      1.272081496663882,
+      1.2696506851910576
+    ]
+  }
+}
