@@ -1,3 +1,21 @@
+# 第二批：本次1.xlsx对应的SEM结果
+
+已按本次确认处理 **49张有参数图像、18组数据**。1-26的517nm功率采用 **0.443mW**；无参数的1-01、1-37、1-38、1-39未处理。
+
+**[打开第二批下载清单及说明](batch_02_1-01_to_1-53)**
+
+完整结果分为3个独立ZIP；全部下载后解压到同一目录，合并SEM_batch02：
+
+- [完整分包1](https://github.com/ybai2896-maker/double/raw/refs/heads/sem-results/batch_02_1-01_to_1-53/SEM_batch02_complete_part01_of_03.zip)
+- [完整分包2](https://github.com/ybai2896-maker/double/raw/refs/heads/sem-results/batch_02_1-01_to_1-53/SEM_batch02_complete_part02_of_03.zip)
+- [完整分包3](https://github.com/ybai2896-maker/double/raw/refs/heads/sem-results/batch_02_1-01_to_1-53/SEM_batch02_complete_part03_of_03.zip)
+- [仅49张逐图掩膜](https://github.com/ybai2896-maker/double/raw/refs/heads/sem-results/batch_02_1-01_to_1-53/SEM_batch02_masks_49.zip)
+- [第二批汇总Excel](batch_02_1-01_to_1-53/SEM_batch02_summary.xlsx)
+
+14组具有样例同名的全部12个标准文件；4组缺少上传源图，按实际源图保存并标注缺项。原图、新掩膜、PNG叠加、DXF、局部掩膜网格及JSON/CSV元数据均来自本批图像。旧批次文件保留在下方链接，未覆盖或混用。
+
+---
+
 # 最新完整导出：1-22 至 1-45，按 case_002 样例格式
 
 **[下载新版8组完整数据ZIP](https://github.com/ybai2896-maker/double/raw/refs/heads/sem-results/SEM_cases_1-22_to_1-45_v2.zip)**
