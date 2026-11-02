@@ -1,0 +1,790 @@
+{
+  "format_version": "7.2-compatible-full-visible-body-v2",
+  "cases": [
+    {
+      "case_id": "case_008",
+      "dataset_id": "case_008",
+      "status": "完整线体掩膜已重提取，待实验审核",
+      "overview_file": "1-24.tif",
+      "zoom_file": "1-22.tif",
+      "measurement_file": "1-23.tif",
+      "overview_pixel_nm": 27.91,
+      "zoom_pixel_nm": 3.489,
+      "overview_width_px": 2048,
+      "overview_height_px": 1536,
+      "zoom_width_px": 2048,
+      "zoom_height_px": 1536,
+      "zoom_roi_xyxy_overview_px": [
+        917.0,
+        696.0,
+        1173.0,
+        873.0
+      ],
+      "zoom_roi_verified": false,
+      "fs_power_mw": 0.616,
+      "cw_power_mw": 0.0,
+      "speed_um_s": 80.0,
+      "spacing_um": 5.0,
+      "line_length_um": 50.0,
+      "n_lines": 4,
+      "zoom_line_id": 3,
+      "line_centers_y_px": [
+        430,
+        610,
+        788,
+        968
+      ],
+      "mask_quality": "reference_guided_full_visible_body_candidate_not_independent_ground_truth",
+      "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left of valid imaging field; stage transform unknown",
+      "full_scan_time_sequence_verified": false,
+      "scan_pattern_recorded": "待确认",
+      "parameters_verified": false,
+      "pairing_verified": false,
+      "overview_pde_registration_verified": false,
+      "parameters_original": {
+        "图像编号": "IMG024",
+        "原文件名": "1-24.tif",
+        "图片对照行": "图片对照第33行",
+        "671 nm功率\n(mW)": 0,
+        "517 nm功率\n(mW)": 0.616,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50,
+        "cw_power_mw": 0.0,
+        "fs_power_mw": 0.616,
+        "speed_um_s": 80.0,
+        "spacing_um": 5.0,
+        "line_length_um": 50.0,
+        "zoom_line_id": 3,
+        "scan_pattern": "待确认"
+      },
+      "needs_review": [
+        "parameters_unconfirmed",
+        "pairing_unconfirmed",
+        "scan_pattern_unconfirmed",
+        "zoom_roi_unconfirmed",
+        "reference_guided_masks_not_independent_labels",
+        "nominal_path_has_no_measured_scan_timing",
+        "overview_zoom_stage_position_difference"
+      ],
+      "ready_for_registration": false,
+      "ready_for_training": false,
+      "mask_version": "full_visible_body_v2",
+      "mask_source": "masks_v2_1-22_to_1-45, commit 7368544",
+      "parameters_source_checked": true,
+      "zoom_correspondence_confirmed_by_user": true,
+      "zoom_location_source": "用户确认：放大的结构都位于第三条线的中间",
+      "zoom_roi_method": "新版完整线体第三条线端点中部与放大线体中部对齐；独立TIFF像素尺寸换算，非独立特征精确配准",
+      "overview_valid_image_height_px": 1419,
+      "zoom_valid_image_height_px": 1419,
+      "grid_metadata": {
+        "shape_yx": [
+          80,
+          100
+        ],
+        "step_nm": 20,
+        "extent_xy_um": [
+          2,
+          1.6
+        ],
+        "overview_anchor_xy_px": [
+          1045.0,
+          788.5
+        ],
+        "zoom_anchor_xy_px": [
+          1023.5,
+          740.0
+        ],
+        "meaning": "local binary mask sampling; not optical PSF or PDE registration"
+      },
+      "measurement_mask_relative_path": "../image_masks/1-23_mask.png"
+    },
+    {
+      "case_id": "case_009",
+      "dataset_id": "case_009",
+      "status": "完整线体掩膜已重提取，待实验审核",
+      "overview_file": "1-27.tif",
+      "zoom_file": "1-26.tif",
+      "measurement_file": "1-25.tif",
+      "overview_pixel_nm": 27.91,
+      "zoom_pixel_nm": 3.489,
+      "overview_width_px": 2048,
+      "overview_height_px": 1536,
+      "zoom_width_px": 2048,
+      "zoom_height_px": 1536,
+      "zoom_roi_xyxy_overview_px": [
+        901.0,
+        706.0,
+        1157.0,
+        883.0
+      ],
+      "zoom_roi_verified": false,
+      "fs_power_mw": 0.616,
+      "cw_power_mw": 115.4,
+      "speed_um_s": 80.0,
+      "spacing_um": 5.0,
+      "line_length_um": 50.0,
+      "n_lines": 4,
+      "zoom_line_id": 3,
+      "line_centers_y_px": [
+        437,
+        618,
+        796,
+        976
+      ],
+      "mask_quality": "reference_guided_full_visible_body_candidate_not_independent_ground_truth",
+      "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left of valid imaging field; stage transform unknown",
+      "full_scan_time_sequence_verified": false,
+      "scan_pattern_recorded": "待确认",
+      "parameters_verified": false,
+      "pairing_verified": false,
+      "overview_pde_registration_verified": false,
+      "parameters_original": {
+        "图像编号": "IMG027",
+        "原文件名": "1-27.tif",
+        "图片对照行": "图片对照第36行",
+        "671 nm功率\n(mW)": 115.4,
+        "517 nm功率\n(mW)": 0.616,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50,
+        "cw_power_mw": 115.4,
+        "fs_power_mw": 0.616,
+        "speed_um_s": 80.0,
+        "spacing_um": 5.0,
+        "line_length_um": 50.0,
+        "zoom_line_id": 3,
+        "scan_pattern": "待确认"
+      },
+      "needs_review": [
+        "parameters_unconfirmed",
+        "pairing_unconfirmed",
+        "scan_pattern_unconfirmed",
+        "zoom_roi_unconfirmed",
+        "reference_guided_masks_not_independent_labels",
+        "nominal_path_has_no_measured_scan_timing"
+      ],
+      "ready_for_registration": false,
+      "ready_for_training": false,
+      "mask_version": "full_visible_body_v2",
+      "mask_source": "masks_v2_1-22_to_1-45, commit 7368544",
+      "parameters_source_checked": true,
+      "zoom_correspondence_confirmed_by_user": true,
+      "zoom_location_source": "用户确认：放大的结构都位于第三条线的中间",
+      "zoom_roi_method": "新版完整线体第三条线端点中部与放大线体中部对齐；独立TIFF像素尺寸换算，非独立特征精确配准",
+      "overview_valid_image_height_px": 1419,
+      "zoom_valid_image_height_px": 1419,
+      "grid_metadata": {
+        "shape_yx": [
+          80,
+          100
+        ],
+        "step_nm": 20,
+        "extent_xy_um": [
+          2,
+          1.6
+        ],
+        "overview_anchor_xy_px": [
+          1029.0,
+          796.0
+        ],
+        "zoom_anchor_xy_px": [
+          1023.5,
+          722.0
+        ],
+        "meaning": "local binary mask sampling; not optical PSF or PDE registration"
+      },
+      "measurement_mask_relative_path": "../image_masks/1-25_mask.png"
+    },
+    {
+      "case_id": "case_010",
+      "dataset_id": "case_010",
+      "status": "完整线体掩膜已重提取，待实验审核",
+      "overview_file": "1-30.tif",
+      "zoom_file": "1-28.tif",
+      "measurement_file": "1-29.tif",
+      "overview_pixel_nm": 27.91,
+      "zoom_pixel_nm": 3.489,
+      "overview_width_px": 2048,
+      "overview_height_px": 1536,
+      "zoom_width_px": 2048,
+      "zoom_height_px": 1536,
+      "zoom_roi_xyxy_overview_px": [
+        900.0,
+        700.0,
+        1156.0,
+        877.0
+      ],
+      "zoom_roi_verified": false,
+      "fs_power_mw": 0.616,
+      "cw_power_mw": 88.2,
+      "speed_um_s": 80.0,
+      "spacing_um": 5.0,
+      "line_length_um": 50.0,
+      "n_lines": 4,
+      "zoom_line_id": 3,
+      "line_centers_y_px": [
+        431,
+        610,
+        790,
+        970
+      ],
+      "mask_quality": "reference_guided_full_visible_body_candidate_not_independent_ground_truth",
+      "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left of valid imaging field; stage transform unknown",
+      "full_scan_time_sequence_verified": false,
+      "scan_pattern_recorded": "待确认",
+      "parameters_verified": false,
+      "pairing_verified": false,
+      "overview_pde_registration_verified": false,
+      "parameters_original": {
+        "图像编号": "IMG030",
+        "原文件名": "1-30.tif",
+        "图片对照行": "图片对照第39行",
+        "671 nm功率\n(mW)": 88.2,
+        "517 nm功率\n(mW)": 0.616,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50,
+        "cw_power_mw": 88.2,
+        "fs_power_mw": 0.616,
+        "speed_um_s": 80.0,
+        "spacing_um": 5.0,
+        "line_length_um": 50.0,
+        "zoom_line_id": 3,
+        "scan_pattern": "待确认"
+      },
+      "needs_review": [
+        "parameters_unconfirmed",
+        "pairing_unconfirmed",
+        "scan_pattern_unconfirmed",
+        "zoom_roi_unconfirmed",
+        "reference_guided_masks_not_independent_labels",
+        "nominal_path_has_no_measured_scan_timing"
+      ],
+      "ready_for_registration": false,
+      "ready_for_training": false,
+      "mask_version": "full_visible_body_v2",
+      "mask_source": "masks_v2_1-22_to_1-45, commit 7368544",
+      "parameters_source_checked": true,
+      "zoom_correspondence_confirmed_by_user": true,
+      "zoom_location_source": "用户确认：放大的结构都位于第三条线的中间",
+      "zoom_roi_method": "新版完整线体第三条线端点中部与放大线体中部对齐；独立TIFF像素尺寸换算，非独立特征精确配准",
+      "overview_valid_image_height_px": 1419,
+      "zoom_valid_image_height_px": 1419,
+      "grid_metadata": {
+        "shape_yx": [
+          80,
+          100
+        ],
+        "step_nm": 20,
+        "extent_xy_um": [
+          2,
+          1.6
+        ],
+        "overview_anchor_xy_px": [
+          1027.5,
+          790.0
+        ],
+        "zoom_anchor_xy_px": [
+          1023.5,
+          716.5
+        ],
+        "meaning": "local binary mask sampling; not optical PSF or PDE registration"
+      },
+      "measurement_mask_relative_path": "../image_masks/1-29_mask.png"
+    },
+    {
+      "case_id": "case_011",
+      "dataset_id": "case_011",
+      "status": "完整线体掩膜已重提取，待实验审核",
+      "overview_file": "1-33.tif",
+      "zoom_file": "1-31.tif",
+      "measurement_file": "1-32.tif",
+      "overview_pixel_nm": 27.91,
+      "zoom_pixel_nm": 3.489,
+      "overview_width_px": 2048,
+      "overview_height_px": 1536,
+      "zoom_width_px": 2048,
+      "zoom_height_px": 1536,
+      "zoom_roi_xyxy_overview_px": [
+        921.0,
+        716.0,
+        1177.0,
+        893.0
+      ],
+      "zoom_roi_verified": false,
+      "fs_power_mw": 0.616,
+      "cw_power_mw": 59.5,
+      "speed_um_s": 80.0,
+      "spacing_um": 5.0,
+      "line_length_um": 50.0,
+      "n_lines": 4,
+      "zoom_line_id": 3,
+      "line_centers_y_px": [
+        449,
+        628,
+        808,
+        987
+      ],
+      "mask_quality": "reference_guided_full_visible_body_candidate_not_independent_ground_truth",
+      "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left of valid imaging field; stage transform unknown",
+      "full_scan_time_sequence_verified": false,
+      "scan_pattern_recorded": "待确认",
+      "parameters_verified": false,
+      "pairing_verified": false,
+      "overview_pde_registration_verified": false,
+      "parameters_original": {
+        "图像编号": "IMG033",
+        "原文件名": "1-33.tif",
+        "图片对照行": "图片对照第42行",
+        "671 nm功率\n(mW)": 59.5,
+        "517 nm功率\n(mW)": 0.616,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50,
+        "cw_power_mw": 59.5,
+        "fs_power_mw": 0.616,
+        "speed_um_s": 80.0,
+        "spacing_um": 5.0,
+        "line_length_um": 50.0,
+        "zoom_line_id": 3,
+        "scan_pattern": "待确认"
+      },
+      "needs_review": [
+        "parameters_unconfirmed",
+        "pairing_unconfirmed",
+        "scan_pattern_unconfirmed",
+        "zoom_roi_unconfirmed",
+        "reference_guided_masks_not_independent_labels",
+        "nominal_path_has_no_measured_scan_timing"
+      ],
+      "ready_for_registration": false,
+      "ready_for_training": false,
+      "mask_version": "full_visible_body_v2",
+      "mask_source": "masks_v2_1-22_to_1-45, commit 7368544",
+      "parameters_source_checked": true,
+      "zoom_correspondence_confirmed_by_user": true,
+      "zoom_location_source": "用户确认：放大的结构都位于第三条线的中间",
+      "zoom_roi_method": "新版完整线体第三条线端点中部与放大线体中部对齐；独立TIFF像素尺寸换算，非独立特征精确配准",
+      "overview_valid_image_height_px": 1419,
+      "zoom_valid_image_height_px": 1419,
+      "grid_metadata": {
+        "shape_yx": [
+          80,
+          100
+        ],
+        "step_nm": 20,
+        "extent_xy_um": [
+          2,
+          1.6
+        ],
+        "overview_anchor_xy_px": [
+          1048.5,
+          807.5
+        ],
+        "zoom_anchor_xy_px": [
+          1023.5,
+          735.5
+        ],
+        "meaning": "local binary mask sampling; not optical PSF or PDE registration"
+      },
+      "measurement_mask_relative_path": "../image_masks/1-32_mask.png"
+    },
+    {
+      "case_id": "case_012",
+      "dataset_id": "case_012",
+      "status": "完整线体掩膜已重提取，待实验审核",
+      "overview_file": "1-36.tif",
+      "zoom_file": "1-34.tif",
+      "measurement_file": "1-35.tif",
+      "overview_pixel_nm": 27.91,
+      "zoom_pixel_nm": 3.489,
+      "overview_width_px": 2048,
+      "overview_height_px": 1536,
+      "zoom_width_px": 2048,
+      "zoom_height_px": 1536,
+      "zoom_roi_xyxy_overview_px": [
+        881.0,
+        706.0,
+        1137.0,
+        883.0
+      ],
+      "zoom_roi_verified": false,
+      "fs_power_mw": 0.515,
+      "cw_power_mw": 0.0,
+      "speed_um_s": 80.0,
+      "spacing_um": 5.0,
+      "line_length_um": 50.0,
+      "n_lines": 4,
+      "zoom_line_id": 3,
+      "line_centers_y_px": [
+        438,
+        620,
+        797,
+        976
+      ],
+      "mask_quality": "reference_guided_full_visible_body_candidate_not_independent_ground_truth",
+      "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left of valid imaging field; stage transform unknown",
+      "full_scan_time_sequence_verified": false,
+      "scan_pattern_recorded": "待确认",
+      "parameters_verified": false,
+      "pairing_verified": false,
+      "overview_pde_registration_verified": false,
+      "parameters_original": {
+        "图像编号": "IMG036",
+        "原文件名": "1-36.tif",
+        "图片对照行": "图片对照第45行",
+        "671 nm功率\n(mW)": 0,
+        "517 nm功率\n(mW)": 0.515,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50,
+        "cw_power_mw": 0.0,
+        "fs_power_mw": 0.515,
+        "speed_um_s": 80.0,
+        "spacing_um": 5.0,
+        "line_length_um": 50.0,
+        "zoom_line_id": 3,
+        "scan_pattern": "待确认"
+      },
+      "needs_review": [
+        "parameters_unconfirmed",
+        "pairing_unconfirmed",
+        "scan_pattern_unconfirmed",
+        "zoom_roi_unconfirmed",
+        "reference_guided_masks_not_independent_labels",
+        "nominal_path_has_no_measured_scan_timing"
+      ],
+      "ready_for_registration": false,
+      "ready_for_training": false,
+      "mask_version": "full_visible_body_v2",
+      "mask_source": "masks_v2_1-22_to_1-45, commit 7368544",
+      "parameters_source_checked": true,
+      "zoom_correspondence_confirmed_by_user": true,
+      "zoom_location_source": "用户确认：放大的结构都位于第三条线的中间",
+      "zoom_roi_method": "新版完整线体第三条线端点中部与放大线体中部对齐；独立TIFF像素尺寸换算，非独立特征精确配准",
+      "overview_valid_image_height_px": 1419,
+      "zoom_valid_image_height_px": 1419,
+      "grid_metadata": {
+        "shape_yx": [
+          80,
+          100
+        ],
+        "step_nm": 20,
+        "extent_xy_um": [
+          2,
+          1.6
+        ],
+        "overview_anchor_xy_px": [
+          1008.5,
+          797.0
+        ],
+        "zoom_anchor_xy_px": [
+          1023.5,
+          726.0
+        ],
+        "meaning": "local binary mask sampling; not optical PSF or PDE registration"
+      },
+      "measurement_mask_relative_path": "../image_masks/1-35_mask.png"
+    },
+    {
+      "case_id": "case_013",
+      "dataset_id": "case_013",
+      "status": "完整线体掩膜已重提取，待实验审核",
+      "overview_file": "1-39.tif",
+      "zoom_file": "1-37.tif",
+      "measurement_file": "1-38.tif",
+      "overview_pixel_nm": 27.91,
+      "zoom_pixel_nm": 3.489,
+      "overview_width_px": 2048,
+      "overview_height_px": 1536,
+      "zoom_width_px": 2048,
+      "zoom_height_px": 1536,
+      "zoom_roi_xyxy_overview_px": [
+        898.0,
+        703.0,
+        1154.0,
+        880.0
+      ],
+      "zoom_roi_verified": false,
+      "fs_power_mw": 0.515,
+      "cw_power_mw": 115.4,
+      "speed_um_s": 80.0,
+      "spacing_um": 5.0,
+      "line_length_um": 50.0,
+      "n_lines": 4,
+      "zoom_line_id": 3,
+      "line_centers_y_px": [
+        437,
+        616,
+        795,
+        973
+      ],
+      "mask_quality": "reference_guided_full_visible_body_candidate_not_independent_ground_truth",
+      "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left of valid imaging field; stage transform unknown",
+      "full_scan_time_sequence_verified": false,
+      "scan_pattern_recorded": "待确认",
+      "parameters_verified": false,
+      "pairing_verified": false,
+      "overview_pde_registration_verified": false,
+      "parameters_original": {
+        "图像编号": "IMG039",
+        "原文件名": "1-39.tif",
+        "图片对照行": "图片对照第48行",
+        "671 nm功率\n(mW)": 115.4,
+        "517 nm功率\n(mW)": 0.515,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50,
+        "": null,
+        "cw_power_mw": 115.4,
+        "fs_power_mw": 0.515,
+        "speed_um_s": 80.0,
+        "spacing_um": 5.0,
+        "line_length_um": 50.0,
+        "zoom_line_id": 3,
+        "scan_pattern": "待确认"
+      },
+      "needs_review": [
+        "parameters_unconfirmed",
+        "pairing_unconfirmed",
+        "scan_pattern_unconfirmed",
+        "zoom_roi_unconfirmed",
+        "reference_guided_masks_not_independent_labels",
+        "nominal_path_has_no_measured_scan_timing"
+      ],
+      "ready_for_registration": false,
+      "ready_for_training": false,
+      "mask_version": "full_visible_body_v2",
+      "mask_source": "masks_v2_1-22_to_1-45, commit 7368544",
+      "parameters_source_checked": true,
+      "zoom_correspondence_confirmed_by_user": true,
+      "zoom_location_source": "用户确认：放大的结构都位于第三条线的中间",
+      "zoom_roi_method": "新版完整线体第三条线端点中部与放大线体中部对齐；独立TIFF像素尺寸换算，非独立特征精确配准",
+      "overview_valid_image_height_px": 1419,
+      "zoom_valid_image_height_px": 1419,
+      "grid_metadata": {
+        "shape_yx": [
+          80,
+          100
+        ],
+        "step_nm": 20,
+        "extent_xy_um": [
+          2,
+          1.6
+        ],
+        "overview_anchor_xy_px": [
+          1026.0,
+          795.0
+        ],
+        "zoom_anchor_xy_px": [
+          1023.5,
+          736.5
+        ],
+        "meaning": "local binary mask sampling; not optical PSF or PDE registration"
+      },
+      "measurement_mask_relative_path": "../image_masks/1-38_mask.png"
+    },
+    {
+      "case_id": "case_014",
+      "dataset_id": "case_014",
+      "status": "完整线体掩膜已重提取，待实验审核",
+      "overview_file": "1-42.tif",
+      "zoom_file": "1-40.tif",
+      "measurement_file": "1-41.tif",
+      "overview_pixel_nm": 27.91,
+      "zoom_pixel_nm": 3.489,
+      "overview_width_px": 2048,
+      "overview_height_px": 1536,
+      "zoom_width_px": 2048,
+      "zoom_height_px": 1536,
+      "zoom_roi_xyxy_overview_px": [
+        906.0,
+        708.0,
+        1162.0,
+        885.0
+      ],
+      "zoom_roi_verified": false,
+      "fs_power_mw": 0.515,
+      "cw_power_mw": 88.2,
+      "speed_um_s": 80.0,
+      "spacing_um": 5.0,
+      "line_length_um": 50.0,
+      "n_lines": 4,
+      "zoom_line_id": 3,
+      "line_centers_y_px": [
+        438,
+        618,
+        798,
+        976
+      ],
+      "mask_quality": "reference_guided_full_visible_body_candidate_not_independent_ground_truth",
+      "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left of valid imaging field; stage transform unknown",
+      "full_scan_time_sequence_verified": false,
+      "scan_pattern_recorded": "待确认",
+      "parameters_verified": false,
+      "pairing_verified": false,
+      "overview_pde_registration_verified": false,
+      "parameters_original": {
+        "图像编号": "IMG042",
+        "原文件名": "1-42.tif",
+        "图片对照行": "图片对照第51行",
+        "671 nm功率\n(mW)": 88.2,
+        "517 nm功率\n(mW)": 0.515,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50,
+        "cw_power_mw": 88.2,
+        "fs_power_mw": 0.515,
+        "speed_um_s": 80.0,
+        "spacing_um": 5.0,
+        "line_length_um": 50.0,
+        "zoom_line_id": 3,
+        "scan_pattern": "待确认"
+      },
+      "needs_review": [
+        "parameters_unconfirmed",
+        "pairing_unconfirmed",
+        "scan_pattern_unconfirmed",
+        "zoom_roi_unconfirmed",
+        "reference_guided_masks_not_independent_labels",
+        "nominal_path_has_no_measured_scan_timing"
+      ],
+      "ready_for_registration": false,
+      "ready_for_training": false,
+      "mask_version": "full_visible_body_v2",
+      "mask_source": "masks_v2_1-22_to_1-45, commit 7368544",
+      "parameters_source_checked": true,
+      "zoom_correspondence_confirmed_by_user": true,
+      "zoom_location_source": "用户确认：放大的结构都位于第三条线的中间",
+      "zoom_roi_method": "新版完整线体第三条线端点中部与放大线体中部对齐；独立TIFF像素尺寸换算，非独立特征精确配准",
+      "overview_valid_image_height_px": 1419,
+      "zoom_valid_image_height_px": 1419,
+      "grid_metadata": {
+        "shape_yx": [
+          80,
+          100
+        ],
+        "step_nm": 20,
+        "extent_xy_um": [
+          2,
+          1.6
+        ],
+        "overview_anchor_xy_px": [
+          1033.5,
+          798.0
+        ],
+        "zoom_anchor_xy_px": [
+          1023.5,
+          723.0
+        ],
+        "meaning": "local binary mask sampling; not optical PSF or PDE registration"
+      },
+      "measurement_mask_relative_path": "../image_masks/1-41_mask.png"
+    },
+    {
+      "case_id": "case_015",
+      "dataset_id": "case_015",
+      "status": "完整线体掩膜已重提取，待实验审核",
+      "overview_file": "1-45.tif",
+      "zoom_file": "1-43.tif",
+      "measurement_file": "1-44.tif",
+      "overview_pixel_nm": 27.91,
+      "zoom_pixel_nm": 3.489,
+      "overview_width_px": 2048,
+      "overview_height_px": 1536,
+      "zoom_width_px": 2048,
+      "zoom_height_px": 1536,
+      "zoom_roi_xyxy_overview_px": [
+        863.0,
+        708.0,
+        1119.0,
+        885.0
+      ],
+      "zoom_roi_verified": false,
+      "fs_power_mw": 0.515,
+      "cw_power_mw": 59.5,
+      "speed_um_s": 80.0,
+      "spacing_um": 5.0,
+      "line_length_um": 50.0,
+      "n_lines": 4,
+      "zoom_line_id": 3,
+      "line_centers_y_px": [
+        440,
+        620,
+        799,
+        978
+      ],
+      "mask_quality": "reference_guided_full_visible_body_candidate_not_independent_ground_truth",
+      "coordinate_convention": "um; x=x_px*nm/1000; y=(1419-1-y_px)*nm/1000; local bottom-left of valid imaging field; stage transform unknown",
+      "full_scan_time_sequence_verified": false,
+      "scan_pattern_recorded": "待确认",
+      "parameters_verified": false,
+      "pairing_verified": false,
+      "overview_pde_registration_verified": false,
+      "parameters_original": {
+        "图像编号": "IMG045",
+        "原文件名": "1-45.tif",
+        "图片对照行": "图片对照第54行",
+        "671 nm功率\n(mW)": 59.5,
+        "517 nm功率\n(mW)": 0.515,
+        "扫描速度\n(µm/s)": 80,
+        "线间距\n(µm)": 5,
+        "设计线长\n(µm)": 50,
+        "cw_power_mw": 59.5,
+        "fs_power_mw": 0.515,
+        "speed_um_s": 80.0,
+        "spacing_um": 5.0,
+        "line_length_um": 50.0,
+        "zoom_line_id": 3,
+        "scan_pattern": "待确认"
+      },
+      "needs_review": [
+        "parameters_unconfirmed",
+        "pairing_unconfirmed",
+        "scan_pattern_unconfirmed",
+        "zoom_roi_unconfirmed",
+        "reference_guided_masks_not_independent_labels",
+        "nominal_path_has_no_measured_scan_timing"
+      ],
+      "ready_for_registration": false,
+      "ready_for_training": false,
+      "mask_version": "full_visible_body_v2",
+      "mask_source": "masks_v2_1-22_to_1-45, commit 7368544",
+      "parameters_source_checked": true,
+      "zoom_correspondence_confirmed_by_user": true,
+      "zoom_location_source": "用户确认：放大的结构都位于第三条线的中间",
+      "zoom_roi_method": "新版完整线体第三条线端点中部与放大线体中部对齐；独立TIFF像素尺寸换算，非独立特征精确配准",
+      "overview_valid_image_height_px": 1419,
+      "zoom_valid_image_height_px": 1419,
+      "grid_metadata": {
+        "shape_yx": [
+          80,
+          100
+        ],
+        "step_nm": 20,
+        "extent_xy_um": [
+          2,
+          1.6
+        ],
+        "overview_anchor_xy_px": [
+          990.5,
+          799.0
+        ],
+        "zoom_anchor_xy_px": [
+          1023.5,
+          730.5
+        ],
+        "meaning": "local binary mask sampling; not optical PSF or PDE registration"
+      },
+      "measurement_mask_relative_path": "../image_masks/1-44_mask.png",
+      "parameter_correction": {
+        "file": "1-45.tif",
+        "field": "fs_power_mw",
+        "original": 0.443,
+        "effective": 0.515,
+        "authority": "user confirmation in this conversation: all images in the group are 0.515 mW"
+      }
+    }
+  ]
+}
